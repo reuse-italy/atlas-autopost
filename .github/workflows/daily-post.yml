@@ -1,0 +1,25 @@
+name: Daily Instagram post
+on:
+  schedule:
+    - cron: "0 17 * * *"   # 17:00 UTC = 18:00 Rome in winter (19:00 in summer)
+  workflow_dispatch: {}      # "Run workflow" button for a manual test
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python post_next.py
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      - name: Record what was posted
+        run: |
+          git config user.name "atlas-bot"
+          git config user.email "atlas-bot@users.noreply.github.com"
+          git add posted.json
+          git diff --cached --quiet || git commit -m "Posted $(date +%F)"
+          git push
