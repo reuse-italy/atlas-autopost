@@ -8,8 +8,8 @@ At most one photo is posted per day.
 import json, os, sys, time, datetime, urllib.request, urllib.parse
 from zoneinfo import ZoneInfo
 
-API = "https://graph.facebook.com/v21.0"
-IG_USER_ID = os.environ["IG_USER_ID"]
+API = "https://graph.instagram.com/v21.0"   # Instagram API with Instagram Login: no Facebook Page needed
+IG_USER_ID = os.environ.get("IG_USER_ID") or "me"
 TOKEN = os.environ["IG_ACCESS_TOKEN"]
 REPO = os.environ["GITHUB_REPOSITORY"]
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
@@ -23,6 +23,14 @@ def status(container_id):
     q = urllib.parse.urlencode({"fields": "status_code", "access_token": TOKEN})
     with urllib.request.urlopen(f"{API}/{container_id}?{q}", timeout=60) as r:
         return json.load(r).get("status_code")
+
+# Keep the key alive: each refresh extends it by another 60 days.
+try:
+    q = urllib.parse.urlencode({"grant_type": "ig_refresh_token", "access_token": TOKEN})
+    with urllib.request.urlopen(f"https://graph.instagram.com/refresh_access_token?{q}", timeout=60) as r:
+        print("Key refreshed, valid for", json.load(r).get("expires_in"), "seconds")
+except Exception as e:
+    print("Key refresh skipped:", e)
 
 today = datetime.datetime.now(ZoneInfo("Europe/Rome")).date().isoformat()
 queue = json.load(open("queue.json", encoding="utf-8"))

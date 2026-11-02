@@ -8,11 +8,9 @@ this GitHub folder. Every evening GitHub posts the next approved photo to Instag
 and records it, and the board shows it as "Posted".
 
 ## You need
-- @atlas_of_ruins switched to a Professional account (Business or Creator) and linked
-  to a Facebook Page. In the Instagram app: Settings > Account type and tools.
-- A free GitHub account (github.com).
-- A free Meta for Developers account (developers.facebook.com), signed in with the
-  Facebook profile that manages the Page.
+- @atlas_of_ruins switched to a Professional account (Business or Creator).
+  In the Instagram app: Settings > Account type and tools. No Facebook Page is needed.
+- A Meta for Developers account (developers.facebook.com).
 
 ## Step 1. Put this folder on GitHub
 1. On github.com click **New repository**. Name it exactly `atlas-autopost`.
@@ -26,21 +24,17 @@ and records it, and the board shows it as "Posted".
 In claude.ai: **Settings > Connectors > GitHub > Connect**, and allow access to
 `atlas-autopost`. This lets the daily sync update the queue.
 
-## Step 3. Get the two Instagram keys
-1. developers.facebook.com > **My Apps > Create App** > use case **Other** > type **Business**.
-2. In the app, add the product **Instagram** (API setup with Facebook login).
-3. Open **Tools > Graph API Explorer**. Choose your app, click **Generate Access Token**,
-   and tick `instagram_basic`, `instagram_content_publish`, `pages_show_list`,
-   `pages_read_engagement`, `business_management`. Approve the pop-up.
-4. In the Explorer, type `me/accounts?fields=instagram_business_account` and press **Submit**.
-   The number under `instagram_business_account` > `id` is your **IG_USER_ID**.
-5. For a key that never expires: business.facebook.com > **Settings > Users > System users** >
-   **Add** (role Admin). Assign it the app and the Page (full control), then **Generate new token**
-   with the same permissions and expiry **Never**. That is your **IG_ACCESS_TOKEN**.
+## Step 3. Get the Instagram key
+1. developers.facebook.com > **My Apps > Create App**. Name it "Atlas autopost".
+2. For the use case pick **Manage messaging & content on Instagram**. Finish creating the app.
+3. In the app, open **Instagram > API setup with Instagram login**.
+4. Under **Generate access tokens**, click **Add account** and log in as @atlas_of_ruins.
+5. Click **Generate token** next to the account and copy the long code. That is your **IG_ACCESS_TOKEN**.
+   The poster refreshes this key every day, so it does not expire while posting runs.
 
-## Step 4. Give the keys to GitHub
+## Step 4. Give the key to GitHub
 In the repository: **Settings > Secrets and variables > Actions > New repository secret**.
-Add `IG_USER_ID` and `IG_ACCESS_TOKEN`.
+Name it `IG_ACCESS_TOKEN` and paste the code.
 
 ## Step 5. Test
 Approve one row on the board. The next afternoon the queue updates on its own.
