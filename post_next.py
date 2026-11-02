@@ -36,6 +36,11 @@ try:
 except Exception as e:
     print("Key refresh skipped:", e)
 
+# Check the key works (read only, posts nothing).
+q = urllib.parse.urlencode({"fields": "username", "access_token": TOKEN})
+with urllib.request.urlopen(f"{API}/{IG_USER_ID}?{q}", timeout=60) as r:
+    print("Connected to Instagram as @" + json.load(r).get("username", "?"))
+
 today = datetime.datetime.now(ZoneInfo("Europe/Rome")).date().isoformat()
 queue = json.load(open("queue.json", encoding="utf-8"))
 posted = json.load(open("posted.json", encoding="utf-8")) if os.path.exists("posted.json") else {}
