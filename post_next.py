@@ -8,9 +8,11 @@ At most one photo is posted per day.
 import json, os, sys, time, datetime, urllib.request, urllib.parse
 from zoneinfo import ZoneInfo
 
-API = "https://graph.instagram.com/v21.0"   # Instagram API with Instagram Login: no Facebook Page needed
-IG_USER_ID = os.environ.get("IG_USER_ID") or "me"
-TOKEN = os.environ["IG_ACCESS_TOKEN"]
+TOKEN = os.environ["IG_ACCESS_TOKEN"].strip()
+# Keys made with Instagram login start with "IG"; keys from Meta's business setup start with "EAA".
+INSTAGRAM_KEY = TOKEN.startswith("IG")
+API = "https://graph.instagram.com/v21.0" if INSTAGRAM_KEY else "https://graph.facebook.com/v21.0"
+IG_USER_ID = os.environ.get("IG_USER_ID") or "17841477991236774"   # @atlas_of_ruins
 REPO = os.environ["GITHUB_REPOSITORY"]
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 
@@ -26,6 +28,8 @@ def status(container_id):
 
 # Keep the key alive: each refresh extends it by another 60 days.
 try:
+    if not INSTAGRAM_KEY:
+        raise RuntimeError("business key, does not need refreshing")
     q = urllib.parse.urlencode({"grant_type": "ig_refresh_token", "access_token": TOKEN})
     with urllib.request.urlopen(f"https://graph.instagram.com/refresh_access_token?{q}", timeout=60) as r:
         print("Key refreshed, valid for", json.load(r).get("expires_in"), "seconds")
