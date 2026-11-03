@@ -1,5 +1,6 @@
 {
  "start": "2026-11-03",
+ "time": "11:00",
  "photos": [
   {
    "id": "035",
@@ -14,16 +15,28 @@
    "caption": "Rocca Calascio, Abruzzo region\nItaly, 2022\nSlobodan Blagojevic"
   },
   {
-   "id": "v2-027",
-   "caption": "Chichén Itza: The “Nunnery” at “The Church”\nChichén Itza, Mexico, 2019\nAndreas Bromba"
+   "id": "089",
+   "caption": "Escuela Nacional de Ballet\nCuba, 2016\nIvo Stani"
   },
   {
-   "id": "v2-029",
-   "caption": "Acropolis\nRhodes, Greece, 2025\nAzin Khaleghi"
+   "id": "119",
+   "caption": "La Cupola, A Modern Ruin\nItaly, 2021\nGiorgia Mellone"
   },
   {
-   "id": "v2-032",
-   "caption": "Basilica di San Giovanni\nCatania, 2009\nDiego Barucco"
+   "id": "090",
+   "caption": "Cathedral of Concrete\nBelgium, 2023\nCéline Paulet"
+  },
+  {
+   "id": "161",
+   "caption": "Bathing in Light\nItaly, 2018\nTorie A Nguyen"
+  },
+  {
+   "id": "163",
+   "caption": "Luminosity\nSpain, 2024\nMaría Belén Iliev"
+  },
+  {
+   "id": "162",
+   "caption": "The Dwelling of Time\nItaly, 2024\nJacopo Cohen"
   },
   {
    "id": "v2-081",
@@ -157,6 +170,5 @@
    "id": "v2-292",
    "caption": "The Castle\nHuércal de Almería, Spain, 2023\nJosé Javier Espinosa Jiménez"
   }
- ],
- "time": "11:00"
+ ]
 }
