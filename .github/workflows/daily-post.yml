@@ -1,7 +1,7 @@
 name: Daily Instagram post
 on:
   schedule:
-    - cron: "0 17 * * *"   # 17:00 UTC = 18:00 Rome in winter (19:00 in summer)
+    - cron: "0 10 * * *"   # 10:00 UTC = 11:00 Rome in winter (12:00 in summer)
   workflow_dispatch: {}      # "Run workflow" button for a manual test
 permissions:
   contents: write
