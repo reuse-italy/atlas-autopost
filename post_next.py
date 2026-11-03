@@ -26,6 +26,13 @@ def status(container_id):
     with urllib.request.urlopen(f"{API}/{container_id}?{q}", timeout=60) as r:
         return json.load(r).get("status_code")
 
+# Only post once the day's posting time (set on the approval board, Rome time) has been reached.
+_now = datetime.datetime.now(ZoneInfo("Europe/Rome"))
+_q = json.load(open("queue.json", encoding="utf-8"))
+_h, _m = [int(x) for x in (_q.get("time") or "11:00").split(":")[:2]]
+if os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch" and (_now.hour, _now.minute) < (_h, _m):
+    print(f"Not yet: posting time is {_h:02d}:{_m:02d} Rome time."); sys.exit(0)
+
 # Keep the key alive: each refresh extends it by another 60 days.
 try:
     if not INSTAGRAM_KEY:
