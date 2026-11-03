@@ -1,29 +1,35 @@
-# Atlas of Ruins auto-posting: handover
+# Atlas of Ruins posting: handover
 
-Everything that posts to @atlas_of_ruins, and how to keep it running after Isabella leaves.
+Everything that posts to @atlas_of_ruins lives in this GitHub repository, except two
+pieces that live on a Claude account: the approval board and the hourly sync.
+These steps move those two pieces to the new owner's Claude account.
 
-## How it works
-1. **Approval board** (a Claude page): rows of three photos. Approve, reorder or swap them, and set the post time.
-2. **Hourly sync** (a Claude scheduled task): copies the approved rows, start date and post time from the board into `queue.json` in this repository.
-3. **GitHub** (this repository): every 15 minutes it checks the time; once the day's post time has passed it posts the next approved photo with its book caption, then records it in `posted.json`. It never posts twice in one day.
-
-## Who owns what
-| Piece | Lives in | Must belong to the company |
+## What runs where
+| Piece | Where it lives | Owner after handover |
 |---|---|---|
-| Instagram account | @atlas_of_ruins | already company |
-| Posting key (`IG_ACCESS_TOKEN`) | GitHub > Settings > Secrets | system-user key, never expires |
-| Meta app "Atlas autopost" | Reuse Italy business portfolio | add the boss with Full control |
-| This repository + images | GitHub account `reuse-italy` | change login email to a company address |
-| Approval board + hourly sync | Claude | move to a company Claude account (below) |
+| Images, captions, posting program, daily schedule | GitHub `reuse-italy/atlas-autopost` | Company GitHub login |
+| Instagram key | GitHub secret `IG_ACCESS_TOKEN` (never expires) | Stays in GitHub |
+| Meta app "Atlas autopost" | Business portfolio "Reuse Italy" | Admins of that portfolio |
+| Approval board | Claude artifact | New owner's Claude account |
+| Hourly sync (board → GitHub) | Claude scheduled task | New owner's Claude account |
 
-## Moving the board and the sync to a company Claude account
-Sign in to claude.ai with the company account, connect GitHub (Settings > Connectors > GitHub, allow `atlas-autopost`), start a new chat and paste this:
+## Steps for the new owner (about 20 minutes)
+1. **GitHub login.** Get the `reuse-italy` GitHub password from Isabella. Change the
+   password and the account email to your own (github.com > Settings).
+2. **Connect GitHub to Claude.** In claude.ai: Settings > Connectors > GitHub > Connect,
+   signed in as `reuse-italy`, and allow the repository `atlas-autopost`.
+   If Claude later says it cannot push, install the Claude GitHub app on the repository:
+   https://github.com/apps/claude/installations/select_target
+3. **Recreate the board and sync.** Start a new chat in Claude and paste the text in
+   `board/SETUP_PROMPT.md`. Claude publishes your own copy of the board, copies over all
+   approvals and order, and sets up the hourly sync. Check the new board shows the same rows.
+4. **Meta.** Accept the invite to the "Reuse Italy" business portfolio with full control
+   (business.facebook.com). Isabella sends it.
+5. **Tell Isabella it works.** She then deletes her sync task so only yours runs, and
+   removes her copy of the board.
 
-> Rebuild the Atlas of Ruins approval board from the GitHub repository reuse-italy/atlas-autopost, folder `board-backup`. Publish `board-backup/index.html` as an artifact with the `db` and `user` capabilities, together with every file in `board-backup/img` (publish them in batches of 200 or fewer at the same paths). Then load the saved data from `board-backup/data` into the new board's database: each JSON file is one document, at collection = its folder (`groups`, `plan`, `settings`, `status`) and document id = its file name. Then create an hourly scheduled task that does what `SYNC_TASK.md` in the repository describes, using the new board's link. Share the board with the people who approve posts as Editors, with link sharing turned off.
-
-The backup in `board-backup/data` is a snapshot; ask Claude in the old board's chat for a fresh export just before switching, or rebuild from the latest copy if the old one is gone.
-
-## If something stops
-- **Nothing posted today:** GitHub > Actions tab. A red run shows the reason. "Not yet" means the post time has not come; "Nothing approved is waiting" means approve more rows.
-- **Approvals not reaching GitHub:** the hourly sync is not running. Check the scheduled task in the Claude account that owns it.
-- **Post now by hand:** Actions > Daily Instagram post > Run workflow.
+## Day to day
+- Approve, reorder or swap rows on the board. Changes reach GitHub within an hour.
+- Posts go up once a day at the time set on the board (default 11:00 Rome time).
+- If a post fails, GitHub emails the account owner and the same photo is tried again
+  at the next check.

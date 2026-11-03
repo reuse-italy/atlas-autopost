@@ -1,0 +1,1893 @@
+{
+ "plan/current": {
+  "extras": [
+   "056",
+   "074",
+   "v2-254",
+   "v2-148"
+  ],
+  "order": [
+   "g01",
+   "g02",
+   "g03",
+   "g04",
+   "g05",
+   "g06",
+   "g07",
+   "g08",
+   "g09",
+   "g10",
+   "g11",
+   "g12",
+   "g13",
+   "g14",
+   "g15",
+   "g16",
+   "g17",
+   "g18",
+   "g19",
+   "g20",
+   "g21",
+   "g22",
+   "g23",
+   "g24",
+   "g25",
+   "g26",
+   "g27",
+   "g28",
+   "g29",
+   "g30",
+   "v2g001",
+   "v2g002",
+   "v2g003",
+   "v2g004",
+   "v2g005",
+   "v2g006",
+   "v2g007",
+   "v2g008",
+   "v2g009",
+   "v2g010",
+   "v2g011",
+   "v2g012",
+   "v2g013",
+   "v2g014",
+   "v2g015",
+   "v2g016",
+   "v2g017",
+   "v2g018",
+   "v2g019",
+   "v2g020",
+   "v2g021",
+   "v2g022",
+   "v2g023",
+   "v2g024",
+   "v2g025",
+   "v2g026",
+   "v2g027",
+   "v2g028",
+   "v2g029",
+   "v2g030",
+   "v2g031",
+   "v2g032",
+   "v2g033",
+   "v2g034",
+   "v2g035",
+   "v2g036",
+   "v2g037",
+   "v2g038",
+   "v2g039",
+   "v2g040",
+   "v2g041",
+   "v2g042",
+   "v2g043",
+   "v2g044",
+   "v2g045",
+   "v2g046",
+   "v2g047",
+   "v2g048",
+   "v2g049",
+   "v2g050",
+   "v2g051",
+   "v2g052",
+   "v2g053",
+   "v2g054",
+   "v2g055",
+   "v2g056",
+   "v2g057",
+   "v2g058",
+   "v2g059",
+   "v2g060",
+   "v2g061",
+   "v2g062",
+   "v2g063",
+   "v2g064",
+   "v2g065",
+   "v2g066",
+   "v2g067",
+   "v2g068",
+   "v2g069",
+   "v2g070",
+   "v2g071",
+   "v2g072",
+   "v2g073",
+   "v2g074",
+   "v2g075",
+   "v2g076",
+   "v2g077",
+   "v2g078",
+   "v2g079",
+   "v2g080",
+   "v2g081",
+   "v2g082",
+   "v2g083",
+   "v2g084",
+   "v2g085",
+   "v2g086",
+   "v2g087",
+   "v2g088",
+   "v2g089",
+   "v2g090",
+   "v2g091",
+   "v2g092",
+   "v2g093",
+   "v2g094",
+   "v2g095",
+   "v2g096",
+   "v2g097",
+   "v2g098",
+   "v2g099",
+   "v2g100",
+   "v2g101",
+   "v2g102",
+   "v2g103",
+   "v2g104",
+   "v2g105",
+   "v2g106",
+   "v2g107",
+   "v2g108",
+   "v2g109",
+   "v2g110",
+   "v2g111",
+   "v2g112",
+   "v2g113",
+   "v2g114",
+   "v2g115",
+   "v2g116",
+   "v2g117",
+   "v2g118",
+   "v2g119",
+   "v2g120",
+   "v2g121",
+   "v2g122",
+   "v2g123"
+  ],
+  "start": "2026-11-03",
+  "updatedAt": "2026-11-03T08:45:00.000Z"
+ },
+ "settings/schedule": {
+  "start": "2026-11-03",
+  "time": "11:00",
+  "updatedAt": "2026-11-03T10:30:00.000Z"
+ },
+ "status/posted": {
+  "posted": {
+   "035": "2026-11-02",
+   "039": "2026-11-03"
+  },
+  "updatedAt": "2026-11-03T11:28:00+01:00"
+ },
+ "groups/g01": {
+  "note": "",
+  "photos": [
+   "035",
+   "039",
+   "037"
+  ],
+  "status": "approved",
+  "theme": "Castles on the edge",
+  "updatedAt": "2026-11-02T17:24:24.224Z"
+ },
+ "groups/g02": {
+  "note": "",
+  "photos": [
+   "089",
+   "119",
+   "090"
+  ],
+  "pos": 1000,
+  "status": "approved",
+  "theme": "Concrete domes",
+  "updatedAt": "2026-11-03T10:32:24.032Z"
+ },
+ "groups/g03": {
+  "note": "",
+  "photos": [
+   "161",
+   "163",
+   "162"
+  ],
+  "status": "approved",
+  "theme": "Light through the vault",
+  "updatedAt": "2026-11-03T10:35:26.377Z"
+ },
+ "groups/g04": {
+  "note": "",
+  "photos": [
+   "300",
+   "303",
+   "302"
+  ],
+  "status": "pending",
+  "theme": "Empty pools",
+  "updatedAt": "2026-11-03T10:28:20.255Z"
+ },
+ "groups/g05": {
+  "note": "",
+  "photos": [
+   "040",
+   "036",
+   "231"
+  ],
+  "status": "pending",
+  "theme": "Lost civilisations",
+  "updatedAt": "2026-11-03T10:28:20.255Z"
+ },
+ "groups/g06": {
+  "note": "",
+  "photos": [
+   "184",
+   "186",
+   "185"
+  ],
+  "status": "pending",
+  "theme": "Figures in the ruin",
+  "updatedAt": "2026-11-03T10:28:20.525Z"
+ },
+ "groups/g07": {
+  "note": "",
+  "photos": [
+   "091",
+   "092",
+   "108"
+  ],
+  "pos": 4500,
+  "status": "pending",
+  "theme": "Long dark halls",
+  "updatedAt": "2026-11-03T10:28:20.525Z"
+ },
+ "groups/g08": {
+  "note": "",
+  "photos": [
+   "021",
+   "245",
+   "249"
+  ],
+  "status": "pending",
+  "theme": "Desert and stone",
+  "updatedAt": "2026-11-03T10:28:20.525Z"
+ },
+ "groups/g09": {
+  "note": "",
+  "photos": [
+   "160",
+   "158",
+   "159"
+  ],
+  "status": "pending",
+  "theme": "Painted chapels",
+  "updatedAt": "2026-11-03T10:28:20.525Z"
+ },
+ "groups/g10": {
+  "note": "",
+  "photos": [
+   "127",
+   "120",
+   "088"
+  ],
+  "status": "pending",
+  "theme": "Monuments of the future",
+  "updatedAt": "2026-11-03T10:28:20.808Z"
+ },
+ "groups/g11": {
+  "note": "",
+  "photos": [
+   "029",
+   "031",
+   "030"
+  ],
+  "status": "pending",
+  "theme": "Villas in the woods",
+  "updatedAt": "2026-11-03T10:28:20.808Z"
+ },
+ "groups/g12": {
+  "note": "",
+  "photos": [
+   "211",
+   "205",
+   "212"
+  ],
+  "status": "pending",
+  "theme": "Rooms left behind",
+  "updatedAt": "2026-11-03T10:28:20.808Z"
+ },
+ "groups/g13": {
+  "note": "",
+  "photos": [
+   "095",
+   "087",
+   "096"
+  ],
+  "status": "pending",
+  "theme": "Under the trusses",
+  "updatedAt": "2026-11-03T10:28:20.808Z"
+ },
+ "groups/g14": {
+  "note": "",
+  "photos": [
+   "235",
+   "236",
+   "237"
+  ],
+  "status": "pending",
+  "theme": "Gothic skies",
+  "updatedAt": "2026-11-03T10:28:21.069Z"
+ },
+ "groups/g15": {
+  "note": "",
+  "photos": [
+   "274",
+   "275",
+   "098"
+  ],
+  "pos": 12500,
+  "status": "pending",
+  "theme": "Glass and grid",
+  "updatedAt": "2026-11-03T10:28:21.069Z"
+ },
+ "groups/g16": {
+  "note": "",
+  "photos": [
+   "033",
+   "156",
+   "034"
+  ],
+  "status": "pending",
+  "theme": "Buddhas and stupas",
+  "updatedAt": "2026-11-03T10:28:21.069Z"
+ },
+ "groups/g17": {
+  "note": "",
+  "photos": [
+   "309",
+   "130",
+   "279"
+  ],
+  "pos": 14000,
+  "status": "pending",
+  "theme": "Spectacle",
+  "updatedAt": "2026-11-03T10:28:21.069Z"
+ },
+ "groups/g18": {
+  "note": "",
+  "photos": [
+   "094",
+   "093",
+   "097"
+  ],
+  "status": "pending",
+  "theme": "Factory floors",
+  "updatedAt": "2026-11-03T10:28:21.360Z"
+ },
+ "groups/g19": {
+  "note": "",
+  "photos": [
+   "238",
+   "239",
+   "240"
+  ],
+  "pos": 16000,
+  "status": "pending",
+  "theme": "Nature takes the nave",
+  "updatedAt": "2026-11-03T10:28:21.358Z"
+ },
+ "groups/g20": {
+  "note": "",
+  "photos": [
+   "032",
+   "028",
+   "038"
+  ],
+  "status": "pending",
+  "theme": "Columns",
+  "updatedAt": "2026-11-03T10:28:21.360Z"
+ },
+ "groups/g21": {
+  "note": "",
+  "photos": [
+   "306",
+   "307",
+   "308"
+  ],
+  "pos": 18000,
+  "status": "pending",
+  "theme": "Theatres",
+  "updatedAt": "2026-11-03T10:28:21.360Z"
+ },
+ "groups/g22": {
+  "note": "",
+  "photos": [
+   "128",
+   "131",
+   "129"
+  ],
+  "status": "pending",
+  "theme": "Concrete grids",
+  "updatedAt": "2026-11-03T10:28:21.613Z"
+ },
+ "groups/g23": {
+  "note": "",
+  "photos": [
+   "187",
+   "183",
+   "188"
+  ],
+  "status": "pending",
+  "theme": "Silhouettes",
+  "updatedAt": "2026-11-03T10:28:21.613Z"
+ },
+ "groups/g24": {
+  "note": "",
+  "photos": [
+   "299",
+   "301",
+   "291"
+  ],
+  "status": "pending",
+  "theme": "Water's edge",
+  "updatedAt": "2026-11-03T10:28:21.613Z"
+ },
+ "groups/g25": {
+  "note": "",
+  "photos": [
+   "157",
+   "165",
+   "164"
+  ],
+  "pos": 22500,
+  "status": "pending",
+  "theme": "Altars in decay",
+  "updatedAt": "2026-11-03T10:28:21.613Z"
+ },
+ "groups/g26": {
+  "note": "",
+  "photos": [
+   "099",
+   "100",
+   "132"
+  ],
+  "status": "pending",
+  "theme": "Framed views",
+  "updatedAt": "2026-11-03T10:28:21.953Z"
+ },
+ "groups/g27": {
+  "note": "",
+  "photos": [
+   "241",
+   "243",
+   "244"
+  ],
+  "pos": 27500,
+  "status": "pending",
+  "theme": "Green rooms",
+  "updatedAt": "2026-11-03T10:28:21.953Z"
+ },
+ "groups/g28": {
+  "note": "",
+  "photos": [
+   "304",
+   "298",
+   "305"
+  ],
+  "status": "pending",
+  "theme": "Courts and stands",
+  "updatedAt": "2026-11-03T10:28:21.953Z"
+ },
+ "groups/g29": {
+  "note": "",
+  "photos": [
+   "197",
+   "214",
+   "198"
+  ],
+  "status": "pending",
+  "theme": "Colour and memory",
+  "updatedAt": "2026-11-03T10:28:21.953Z"
+ },
+ "groups/g30": {
+  "note": "",
+  "photos": [
+   "002",
+   "001",
+   "003"
+  ],
+  "status": "pending",
+  "theme": "Prize winners",
+  "updatedAt": "2026-11-03T10:28:22.212Z"
+ },
+ "groups/v2g001": {
+  "note": "",
+  "photos": [
+   "v2-035",
+   "v2-007",
+   "v2-043"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past in black and white",
+  "updatedAt": "2026-11-03T10:28:22.212Z"
+ },
+ "groups/v2g002": {
+  "note": "",
+  "photos": [
+   "v2-068",
+   "v2-049",
+   "v2-076"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust in black and white",
+  "updatedAt": "2026-11-03T10:28:22.212Z"
+ },
+ "groups/v2g003": {
+  "note": "",
+  "photos": [
+   "v2-087",
+   "v2-116",
+   "v2-121"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity in black and white",
+  "updatedAt": "2026-11-03T10:28:22.212Z"
+ },
+ "groups/v2g004": {
+  "note": "",
+  "photos": [
+   "v2-125",
+   "v2-127",
+   "v2-150"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone in black and white",
+  "updatedAt": "2026-11-03T10:28:22.506Z"
+ },
+ "groups/v2g005": {
+  "note": "",
+  "photos": [
+   "v2-157",
+   "v2-164",
+   "v2-187"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives in black and white",
+  "updatedAt": "2026-11-03T10:28:22.508Z"
+ },
+ "groups/v2g006": {
+  "note": "",
+  "photos": [
+   "v2-190",
+   "v2-224",
+   "v2-213"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:22.508Z"
+ },
+ "groups/v2g007": {
+  "note": "",
+  "photos": [
+   "v2-230",
+   "v2-247",
+   "v2-248"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels in black and white",
+  "updatedAt": "2026-11-03T10:28:22.508Z"
+ },
+ "groups/v2g008": {
+  "note": "",
+  "photos": [
+   "v2-289",
+   "v2-266",
+   "v2-295"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:22.739Z"
+ },
+ "groups/v2g009": {
+  "note": "",
+  "photos": [
+   "v2-311",
+   "v2-301",
+   "v2-313"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · For the People in black and white",
+  "updatedAt": "2026-11-03T10:28:22.739Z"
+ },
+ "groups/v2g010": {
+  "note": "",
+  "photos": [
+   "v2-338",
+   "v2-360",
+   "v2-339"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces in black and white",
+  "updatedAt": "2026-11-03T10:28:22.739Z"
+ },
+ "groups/v2g011": {
+  "note": "",
+  "photos": [
+   "v2-014",
+   "v2-042",
+   "v2-016"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past in black and white",
+  "updatedAt": "2026-11-03T10:28:22.739Z"
+ },
+ "groups/v2g012": {
+  "note": "",
+  "photos": [
+   "v2-053",
+   "v2-073",
+   "v2-072"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust in black and white",
+  "updatedAt": "2026-11-03T10:28:23.008Z"
+ },
+ "groups/v2g013": {
+  "note": "",
+  "photos": [
+   "v2-114",
+   "v2-091",
+   "v2-112"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity in black and white",
+  "updatedAt": "2026-11-03T10:28:23.008Z"
+ },
+ "groups/v2g014": {
+  "note": "",
+  "photos": [
+   "v2-126",
+   "v2-132",
+   "v2-142"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone in black and white",
+  "updatedAt": "2026-11-03T10:28:23.008Z"
+ },
+ "groups/v2g015": {
+  "note": "",
+  "photos": [
+   "v2-177",
+   "v2-189",
+   "v2-188"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives in black and white",
+  "updatedAt": "2026-11-03T10:28:23.008Z"
+ },
+ "groups/v2g016": {
+  "note": "",
+  "photos": [
+   "v2-191",
+   "v2-214",
+   "v2-203"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:23.265Z"
+ },
+ "groups/v2g017": {
+  "note": "",
+  "photos": [
+   "v2-251",
+   "v2-246",
+   "v2-264"
+  ],
+  "pos": 44500,
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels in black and white",
+  "updatedAt": "2026-11-03T10:28:23.265Z"
+ },
+ "groups/v2g018": {
+  "note": "",
+  "photos": [
+   "v2-267",
+   "v2-270",
+   "v2-283"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:23.265Z"
+ },
+ "groups/v2g019": {
+  "note": "",
+  "photos": [
+   "v2-302",
+   "v2-310",
+   "v2-308"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · For the People in black and white",
+  "updatedAt": "2026-11-03T10:28:23.265Z"
+ },
+ "groups/v2g020": {
+  "note": "",
+  "photos": [
+   "v2-349",
+   "v2-366",
+   "v2-354"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces in black and white",
+  "updatedAt": "2026-11-03T10:28:23.555Z"
+ },
+ "groups/v2g021": {
+  "note": "",
+  "photos": [
+   "v2-004",
+   "v2-038",
+   "v2-010"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:23.557Z"
+ },
+ "groups/v2g022": {
+  "note": "",
+  "photos": [
+   "v2-055",
+   "v2-056",
+   "v2-084"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust in black and white",
+  "updatedAt": "2026-11-03T10:28:23.557Z"
+ },
+ "groups/v2g023": {
+  "note": "",
+  "photos": [
+   "v2-088",
+   "v2-093",
+   "v2-110"
+  ],
+  "pos": 50500,
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:23.557Z"
+ },
+ "groups/v2g024": {
+  "note": "",
+  "photos": [
+   "v2-131",
+   "v2-151",
+   "v2-137"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone in black and white",
+  "updatedAt": "2026-11-03T10:28:23.824Z"
+ },
+ "groups/v2g025": {
+  "note": "",
+  "photos": [
+   "v2-158",
+   "v2-167",
+   "v2-175"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:24.070Z"
+ },
+ "groups/v2g026": {
+  "note": "",
+  "photos": [
+   "v2-192",
+   "v2-210",
+   "v2-212"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:24.071Z"
+ },
+ "groups/v2g027": {
+  "note": "",
+  "photos": [
+   "v2-226",
+   "v2-261",
+   "v2-243"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:24.071Z"
+ },
+ "groups/v2g028": {
+  "note": "",
+  "photos": [
+   "v2-268",
+   "v2-286",
+   "v2-290"
+  ],
+  "pos": 58500,
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:24.602Z"
+ },
+ "groups/v2g029": {
+  "note": "",
+  "photos": [
+   "v2-306",
+   "v2-322",
+   "v2-324"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · For the People in black and white",
+  "updatedAt": "2026-11-03T10:28:24.317Z"
+ },
+ "groups/v2g030": {
+  "note": "",
+  "photos": [
+   "v2-331",
+   "v2-365",
+   "v2-336"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:24.604Z"
+ },
+ "groups/v2g031": {
+  "note": "",
+  "photos": [
+   "v2-041",
+   "v2-005",
+   "v2-018"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:24.820Z"
+ },
+ "groups/v2g032": {
+  "note": "",
+  "photos": [
+   "v2-062",
+   "v2-064",
+   "v2-079"
+  ],
+  "pos": 59500,
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust in black and white",
+  "updatedAt": "2026-11-03T10:28:24.604Z"
+ },
+ "groups/v2g033": {
+  "note": "",
+  "photos": [
+   "v2-089",
+   "v2-120",
+   "v2-109"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:25.074Z"
+ },
+ "groups/v2g034": {
+  "note": "",
+  "photos": [
+   "v2-124",
+   "v2-122",
+   "v2-152"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone",
+  "updatedAt": "2026-11-03T10:28:25.074Z"
+ },
+ "groups/v2g035": {
+  "note": "",
+  "photos": [
+   "v2-159",
+   "v2-181",
+   "v2-186"
+  ],
+  "pos": 62500,
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:25.074Z"
+ },
+ "groups/v2g036": {
+  "note": "",
+  "photos": [
+   "v2-195",
+   "v2-193",
+   "v2-208"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:25.295Z"
+ },
+ "groups/v2g037": {
+  "note": "",
+  "photos": [
+   "v2-250",
+   "v2-227",
+   "v2-259"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:25.548Z"
+ },
+ "groups/v2g038": {
+  "note": "",
+  "photos": [
+   "v2-269",
+   "v2-278",
+   "v2-277"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:25.548Z"
+ },
+ "groups/v2g039": {
+  "note": "",
+  "photos": [
+   "v2-303",
+   "v2-323",
+   "v2-304"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · For the People",
+  "updatedAt": "2026-11-03T10:28:25.548Z"
+ },
+ "groups/v2g040": {
+  "note": "",
+  "photos": [
+   "v2-332",
+   "v2-340",
+   "v2-356"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:25.768Z"
+ },
+ "groups/v2g041": {
+  "note": "",
+  "photos": [
+   "v2-039",
+   "v2-006",
+   "v2-044"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:25.997Z"
+ },
+ "groups/v2g042": {
+  "note": "",
+  "photos": [
+   "v2-047",
+   "v2-074",
+   "v2-067"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T10:28:25.997Z"
+ },
+ "groups/v2g043": {
+  "note": "",
+  "photos": [
+   "v2-090",
+   "v2-096",
+   "v2-119"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:25.997Z"
+ },
+ "groups/v2g044": {
+  "note": "",
+  "photos": [
+   "v2-123",
+   "v2-141",
+   "v2-154"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone",
+  "updatedAt": "2026-11-03T10:28:26.227Z"
+ },
+ "groups/v2g045": {
+  "note": "",
+  "photos": [
+   "v2-160",
+   "v2-183",
+   "v2-184"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:26.498Z"
+ },
+ "groups/v2g046": {
+  "note": "",
+  "photos": [
+   "v2-194",
+   "v2-202",
+   "v2-205"
+  ],
+  "pos": 73500,
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:26.498Z"
+ },
+ "groups/v2g047": {
+  "note": "",
+  "photos": [
+   "v2-228",
+   "v2-229",
+   "v2-255"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:26.498Z"
+ },
+ "groups/v2g048": {
+  "note": "",
+  "photos": [
+   "v2-271",
+   "v2-281",
+   "v2-294"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:26.715Z"
+ },
+ "groups/v2g049": {
+  "note": "",
+  "photos": [
+   "v2-305",
+   "v2-328",
+   "v2-315"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · For the People",
+  "updatedAt": "2026-11-03T10:28:26.952Z"
+ },
+ "groups/v2g050": {
+  "note": "",
+  "photos": [
+   "v2-344",
+   "v2-333",
+   "v2-368"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:26.952Z"
+ },
+ "groups/v2g051": {
+  "note": "",
+  "photos": [
+   "v2-008",
+   "v2-011",
+   "v2-045"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:26.952Z"
+ },
+ "groups/v2g052": {
+  "note": "",
+  "photos": [
+   "v2-061",
+   "v2-048",
+   "v2-060"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T10:28:27.172Z"
+ },
+ "groups/v2g053": {
+  "note": "",
+  "photos": [
+   "v2-092",
+   "v2-108",
+   "v2-097"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:27.419Z"
+ },
+ "groups/v2g054": {
+  "note": "",
+  "photos": [
+   "v2-128",
+   "v2-146",
+   "v2-156"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone",
+  "updatedAt": "2026-11-03T10:28:27.419Z"
+ },
+ "groups/v2g055": {
+  "note": "",
+  "photos": [
+   "v2-173",
+   "v2-161",
+   "v2-171"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:27.643Z"
+ },
+ "groups/v2g056": {
+  "note": "",
+  "photos": [
+   "v2-196",
+   "v2-211",
+   "v2-209"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:27.908Z"
+ },
+ "groups/v2g057": {
+  "note": "",
+  "photos": [
+   "v2-245",
+   "v2-231",
+   "v2-232"
+  ],
+  "pos": 82500,
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:27.419Z"
+ },
+ "groups/v2g058": {
+  "note": "",
+  "photos": [
+   "v2-272",
+   "v2-285",
+   "v2-274"
+  ],
+  "pos": 84500,
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:27.908Z"
+ },
+ "groups/v2g059": {
+  "note": "",
+  "photos": [
+   "v2-316",
+   "v2-307",
+   "v2-319"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · For the People",
+  "updatedAt": "2026-11-03T10:28:27.908Z"
+ },
+ "groups/v2g060": {
+  "note": "",
+  "photos": [
+   "v2-341",
+   "v2-334",
+   "v2-353"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:28.113Z"
+ },
+ "groups/v2g061": {
+  "note": "",
+  "photos": [
+   "v2-009",
+   "v2-028",
+   "v2-024"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:28.341Z"
+ },
+ "groups/v2g062": {
+  "note": "",
+  "photos": [
+   "v2-050",
+   "v2-070",
+   "v2-069"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T10:28:28.341Z"
+ },
+ "groups/v2g063": {
+  "note": "",
+  "photos": [
+   "v2-102",
+   "v2-094",
+   "v2-103"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:28.341Z"
+ },
+ "groups/v2g064": {
+  "note": "",
+  "photos": [
+   "v2-129",
+   "v2-147",
+   "v2-149"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone",
+  "updatedAt": "2026-11-03T10:28:28.559Z"
+ },
+ "groups/v2g065": {
+  "note": "",
+  "photos": [
+   "v2-162",
+   "v2-169",
+   "v2-179"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:29.020Z"
+ },
+ "groups/v2g066": {
+  "note": "",
+  "photos": [
+   "v2-204",
+   "v2-197",
+   "v2-215"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:29.020Z"
+ },
+ "groups/v2g067": {
+  "note": "",
+  "photos": [
+   "v2-244",
+   "v2-233",
+   "v2-236"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:29.020Z"
+ },
+ "groups/v2g068": {
+  "note": "",
+  "photos": [
+   "v2-273",
+   "v2-276",
+   "v2-282"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:29.226Z"
+ },
+ "groups/v2g069": {
+  "note": "",
+  "photos": [
+   "v2-309",
+   "v2-326",
+   "v2-321"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · For the People",
+  "updatedAt": "2026-11-03T10:28:29.683Z"
+ },
+ "groups/v2g070": {
+  "note": "",
+  "photos": [
+   "v2-335",
+   "v2-364",
+   "v2-361"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:29.683Z"
+ },
+ "groups/v2g071": {
+  "note": "",
+  "photos": [
+   "v2-012",
+   "v2-021",
+   "v2-015"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:29.683Z"
+ },
+ "groups/v2g072": {
+  "note": "",
+  "photos": [
+   "v2-051",
+   "v2-082",
+   "v2-065"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T10:28:29.915Z"
+ },
+ "groups/v2g073": {
+  "note": "",
+  "photos": [
+   "v2-095",
+   "v2-115",
+   "v2-105"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:30.166Z"
+ },
+ "groups/v2g074": {
+  "note": "",
+  "photos": [
+   "v2-133",
+   "v2-130",
+   "v2-153"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone",
+  "updatedAt": "2026-11-03T10:28:30.166Z"
+ },
+ "groups/v2g075": {
+  "note": "",
+  "photos": [
+   "v2-163",
+   "v2-185",
+   "v2-178"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:30.166Z"
+ },
+ "groups/v2g076": {
+  "note": "",
+  "photos": [
+   "v2-198",
+   "v2-218",
+   "v2-217"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:30.371Z"
+ },
+ "groups/v2g077": {
+  "note": "",
+  "photos": [
+   "v2-234",
+   "v2-237",
+   "v2-249"
+  ],
+  "pos": 106750,
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:30.628Z"
+ },
+ "groups/v2g078": {
+  "note": "",
+  "photos": [
+   "v2-275",
+   "v2-291",
+   "v2-298"
+  ],
+  "pos": 109500,
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:30.838Z"
+ },
+ "groups/v2g079": {
+  "note": "",
+  "photos": [
+   "v2-312",
+   "v2-318",
+   "v2-330"
+  ],
+  "pos": 106500,
+  "status": "pending",
+  "theme": "Vol. 2 · For the People",
+  "updatedAt": "2026-11-03T10:28:30.628Z"
+ },
+ "groups/v2g080": {
+  "note": "",
+  "photos": [
+   "v2-345",
+   "v2-337",
+   "v2-362"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:30.628Z"
+ },
+ "groups/v2g081": {
+  "note": "",
+  "photos": [
+   "v2-013",
+   "v2-030",
+   "v2-036"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:31.095Z"
+ },
+ "groups/v2g082": {
+  "note": "",
+  "photos": [
+   "v2-052",
+   "v2-083",
+   "v2-066"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T10:28:31.095Z"
+ },
+ "groups/v2g083": {
+  "note": "",
+  "photos": [
+   "v2-098",
+   "v2-113",
+   "v2-100"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:31.095Z"
+ },
+ "groups/v2g084": {
+  "note": "",
+  "photos": [
+   "v2-145",
+   "v2-134",
+   "v2-155"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone",
+  "updatedAt": "2026-11-03T10:28:31.677Z"
+ },
+ "groups/v2g085": {
+  "note": "",
+  "photos": [
+   "v2-165",
+   "v2-168",
+   "v2-172"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:31.677Z"
+ },
+ "groups/v2g086": {
+  "note": "",
+  "photos": [
+   "v2-199",
+   "v2-200",
+   "v2-222"
+  ],
+  "pos": 112500,
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:31.318Z"
+ },
+ "groups/v2g087": {
+  "note": "",
+  "photos": [
+   "v2-235",
+   "v2-240",
+   "v2-258"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:31.677Z"
+ },
+ "groups/v2g088": {
+  "note": "",
+  "photos": [
+   "v2-279",
+   "v2-297",
+   "v2-284"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:31.902Z"
+ },
+ "groups/v2g089": {
+  "note": "",
+  "photos": [
+   "v2-314",
+   "v2-320",
+   "v2-329"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · For the People",
+  "updatedAt": "2026-11-03T10:28:32.143Z"
+ },
+ "groups/v2g090": {
+  "note": "",
+  "photos": [
+   "v2-342",
+   "v2-343",
+   "v2-358"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:32.143Z"
+ },
+ "groups/v2g091": {
+  "note": "",
+  "photos": [
+   "v2-017",
+   "v2-025",
+   "v2-022"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:32.144Z"
+ },
+ "groups/v2g092": {
+  "note": "",
+  "photos": [
+   "v2-054",
+   "v2-080",
+   "v2-059"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T10:28:32.389Z"
+ },
+ "groups/v2g093": {
+  "note": "",
+  "photos": [
+   "v2-099",
+   "v2-106",
+   "v2-101"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:32.681Z"
+ },
+ "groups/v2g094": {
+  "note": "",
+  "photos": [
+   "v2-143",
+   "v2-135",
+   "v2-144"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone",
+  "updatedAt": "2026-11-03T10:28:32.681Z"
+ },
+ "groups/v2g095": {
+  "note": "",
+  "photos": [
+   "v2-180",
+   "v2-166",
+   "v2-170"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:32.681Z"
+ },
+ "groups/v2g096": {
+  "note": "",
+  "photos": [
+   "v2-201",
+   "v2-223",
+   "v2-225"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:32.902Z"
+ },
+ "groups/v2g097": {
+  "note": "",
+  "photos": [
+   "v2-260",
+   "v2-238",
+   "v2-262"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:33.574Z"
+ },
+ "groups/v2g098": {
+  "note": "",
+  "photos": [
+   "v2-299",
+   "v2-280",
+   "v2-288"
+  ],
+  "pos": 125500,
+  "status": "pending",
+  "theme": "Vol. 2 · Frames",
+  "updatedAt": "2026-11-03T10:28:33.113Z"
+ },
+ "groups/v2g099": {
+  "note": "",
+  "photos": [
+   "v2-373",
+   "v2-346",
+   "v2-374"
+  ],
+  "pos": 125750,
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:33.115Z"
+ },
+ "groups/v2g100": {
+  "note": "",
+  "photos": [
+   "v2-040",
+   "v2-019",
+   "v2-033"
+  ],
+  "pos": 125250,
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:33.113Z"
+ },
+ "groups/v2g101": {
+  "note": "",
+  "photos": [
+   "v2-086",
+   "v2-057",
+   "v2-063"
+  ],
+  "pos": 125875,
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T10:28:33.330Z"
+ },
+ "groups/v2g102": {
+  "note": "",
+  "photos": [
+   "v2-104",
+   "v2-107",
+   "v2-118"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Failed Modernity",
+  "updatedAt": "2026-11-03T10:28:33.574Z"
+ },
+ "groups/v2g103": {
+  "note": "",
+  "photos": [
+   "v2-136",
+   "v2-139",
+   "v2-138"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · God Has Gone",
+  "updatedAt": "2026-11-03T10:28:33.809Z"
+ },
+ "groups/v2g104": {
+  "note": "",
+  "photos": [
+   "v2-174",
+   "v2-176",
+   "v2-182"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Past Lives",
+  "updatedAt": "2026-11-03T10:28:34.114Z"
+ },
+ "groups/v2g105": {
+  "note": "",
+  "photos": [
+   "v2-206",
+   "v2-207",
+   "v2-221"
+  ],
+  "pos": 131500,
+  "status": "pending",
+  "theme": "Vol. 2 · Natura Vincit Omnia",
+  "updatedAt": "2026-11-03T10:28:33.574Z"
+ },
+ "groups/v2g106": {
+  "note": "",
+  "photos": [
+   "v2-239",
+   "v2-242",
+   "v2-241"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:34.114Z"
+ },
+ "groups/v2g107": {
+  "note": "",
+  "photos": [
+   "v2-347",
+   "v2-371",
+   "v2-357"
+  ],
+  "pos": 132500,
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:34.111Z"
+ },
+ "groups/v2g108": {
+  "note": "",
+  "photos": [
+   "v2-020",
+   "v2-034",
+   "v2-023"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:34.327Z"
+ },
+ "groups/v2g109": {
+  "note": "",
+  "photos": [
+   "v2-071",
+   "v2-058",
+   "v2-078"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T10:28:34.621Z"
+ },
+ "groups/v2g110": {
+  "note": "",
+  "photos": [
+   "v2-252",
+   "v2-263",
+   "v2-257"
+  ],
+  "pos": 137500,
+  "status": "pending",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T10:28:34.621Z"
+ },
+ "groups/v2g111": {
+  "note": "",
+  "photos": [
+   "v2-348",
+   "v2-355",
+   "v2-352"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T10:28:34.623Z"
+ },
+ "groups/v2g112": {
+  "note": "",
+  "photos": [
+   "v2-027",
+   "v2-029",
+   "v2-032"
+  ],
+  "status": "pending",
+  "theme": "Vol. 2 · Echoes from the Past",
+  "updatedAt": "2026-11-03T10:28:34.941Z"
+ },
+ "groups/v2g113": {
+  "note": "",
+  "photos": [
+   "v2-081",
+   "v2-075",
+   "v2-077"
+  ],
+  "status": "approved",
+  "theme": "Vol. 2 · Industrial Rust",
+  "updatedAt": "2026-11-03T09:24:53.678Z"
+ },
+ "groups/v2g114": {
+  "note": "",
+  "photos": [
+   "v2-253",
+   "v2-256",
+   "v2-265"
+  ],
+  "status": "approved",
+  "theme": "Vol. 2 · Sentinels",
+  "updatedAt": "2026-11-03T09:24:53.702Z"
+ },
+ "groups/v2g115": {
+  "note": "",
+  "photos": [
+   "v2-363",
+   "v2-350",
+   "v2-351"
+  ],
+  "pos": 143250,
+  "status": "approved",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T09:24:53.726Z"
+ },
+ "groups/v2g116": {
+  "note": "",
+  "photos": [
+   "v2-359",
+   "v2-372",
+   "v2-367"
+  ],
+  "pos": 143500,
+  "status": "approved",
+  "theme": "Vol. 2 · Vernacular Traces",
+  "updatedAt": "2026-11-03T09:24:53.749Z"
+ },
+ "groups/v2g117": {
+  "note": "",
+  "photos": [
+   "v2-026",
+   "v2-219",
+   "v2-327"
+  ],
+  "status": "approved",
+  "theme": "Vol. 2 · Mixed, black and white",
+  "updatedAt": "2026-11-03T09:24:53.831Z"
+ },
+ "groups/v2g118": {
+  "note": "",
+  "photos": [
+   "v2-046",
+   "v2-296",
+   "v2-325"
+  ],
+  "status": "approved",
+  "theme": "Vol. 2 · Mixed, black and white",
+  "updatedAt": "2026-11-03T09:24:53.873Z"
+ },
+ "groups/v2g119": {
+  "note": "",
+  "photos": [
+   "v2-085",
+   "v2-216",
+   "v2-293"
+  ],
+  "pos": 146500,
+  "status": "approved",
+  "theme": "Vol. 2 · Mixed, black and white",
+  "updatedAt": "2026-11-03T09:24:53.852Z"
+ },
+ "groups/v2g120": {
+  "note": "",
+  "photos": [
+   "v2-031",
+   "v2-370",
+   "v2-220"
+  ],
+  "pos": 150500,
+  "status": "approved",
+  "theme": "Vol. 2 · Mixed",
+  "updatedAt": "2026-11-03T09:24:53.916Z"
+ },
+ "groups/v2g121": {
+  "note": "",
+  "photos": [
+   "v2-037",
+   "v2-287",
+   "v2-117"
+  ],
+  "status": "approved",
+  "theme": "Vol. 2 · Mixed",
+  "updatedAt": "2026-11-03T09:24:53.894Z"
+ },
+ "groups/v2g122": {
+  "note": "",
+  "photos": [
+   "v2-111",
+   "v2-300",
+   "v2-140"
+  ],
+  "status": "approved",
+  "theme": "Vol. 2 · Mixed",
+  "updatedAt": "2026-11-03T09:24:53.939Z"
+ },
+ "groups/v2g123": {
+  "note": "",
+  "photos": [
+   "v2-317",
+   "v2-369",
+   "v2-292"
+  ],
+  "status": "approved",
+  "theme": "Vol. 2 · Vol. 2 prize winners",
+  "updatedAt": "2026-11-03T09:24:53.963Z"
+ }
+}
