@@ -5,7 +5,7 @@ order, kept up to date from the approval board), skips anything already in
 posted.json, posts the next photo with its caption, and records it.
 At most one photo is posted per day.
 """
-import json, os, sys, time, datetime, urllib.request, urllib.parse
+import json, os, sys, time, datetime, urllib.request, urllib.parse, urllib.error
 from zoneinfo import ZoneInfo
 
 TOKEN = os.environ["IG_ACCESS_TOKEN"].strip()
@@ -15,6 +15,10 @@ API = "https://graph.instagram.com/v21.0" if INSTAGRAM_KEY else "https://graph.f
 IG_USER_ID = os.environ.get("IG_USER_ID") or "17841477991236774"   # @atlas_of_ruins
 REPO = os.environ["GITHUB_REPOSITORY"]
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
+
+def meta_error(e):
+    try: return e.read().decode("utf-8", "replace")[:500]
+    except Exception: return str(e)
 
 def post(path, params):
     data = urllib.parse.urlencode({**params, "access_token": TOKEN}).encode()
@@ -33,6 +37,14 @@ _h, _m = [int(x) for x in (_q.get("time") or "11:00").split(":")[:2]]
 if os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch" and (_now.hour, _now.minute) < (_h, _m):
     print(f"Not yet: posting time is {_h:02d}:{_m:02d} Rome time."); sys.exit(0)
 
+if os.path.exists("last_error.json") and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
+    try:
+        _last = datetime.datetime.fromisoformat(json.load(open("last_error.json"))["at"])
+        if (_now - _last).total_seconds() < 3600:
+            print("Last attempt failed less than an hour ago; waiting before retrying."); sys.exit(0)
+    except Exception:
+        pass
+
 # Keep the key alive: each refresh extends it by another 60 days.
 try:
     if not INSTAGRAM_KEY:
@@ -42,11 +54,6 @@ try:
         print("Key refreshed, valid for", json.load(r).get("expires_in"), "seconds")
 except Exception as e:
     print("Key refresh skipped:", e)
-
-# Check the key works (read only, posts nothing).
-q = urllib.parse.urlencode({"fields": "username", "access_token": TOKEN})
-with urllib.request.urlopen(f"{API}/{IG_USER_ID}?{q}", timeout=60) as r:
-    print("Connected to Instagram as @" + json.load(r).get("username", "?"))
 
 today = datetime.datetime.now(ZoneInfo("Europe/Rome")).date().isoformat()
 queue = json.load(open("queue.json", encoding="utf-8"))
@@ -60,10 +67,25 @@ todo = [p for p in queue["photos"] if p["id"] not in posted]
 if not todo:
     print("Nothing approved is waiting. Approve more rows on the board."); sys.exit(0)
 
+# Check the key works (read only, posts nothing).
+q = urllib.parse.urlencode({"fields": "username", "access_token": TOKEN})
+try:
+    with urllib.request.urlopen(f"{API}/{IG_USER_ID}?{q}", timeout=60) as r:
+        print("Connected to Instagram as @" + json.load(r).get("username", "?"))
+except urllib.error.HTTPError as e:
+    msg = meta_error(e)
+    print("Instagram refused the key:", msg)
+    json.dump({"at": _now.isoformat(), "error": msg}, open("last_error.json", "w"), indent=1)
+    sys.exit(1)
+
 item = todo[0]
 image_url = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/posts/{item['id']}.jpg"
 print("Posting", item["id"], item["caption"].splitlines()[0])
-container = post(f"{IG_USER_ID}/media", {"image_url": image_url, "caption": item["caption"]})["id"]
+try:
+    container = post(f"{IG_USER_ID}/media", {"image_url": image_url, "caption": item["caption"]})["id"]
+except urllib.error.HTTPError as e:
+    msg = meta_error(e); print("Instagram refused the photo:", msg)
+    json.dump({"at": _now.isoformat(), "error": msg}, open("last_error.json", "w"), indent=1); sys.exit(1)
 for _ in range(20):
     if status(container) == "FINISHED":
         break
@@ -71,4 +93,5 @@ for _ in range(20):
 result = post(f"{IG_USER_ID}/media_publish", {"creation_id": container})
 posted[item["id"]] = today
 json.dump(posted, open("posted.json", "w", encoding="utf-8"), indent=1, sort_keys=True)
+if os.path.exists("last_error.json"): os.remove("last_error.json")
 print("Posted:", result)
